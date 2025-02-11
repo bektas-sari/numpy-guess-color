@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Card</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎴 Guess the Card Color 🎴</h1>
+        
+        <!-- Flip Card -->
+        <div class="card-container" onclick="flipCard()">
+            <div class="card">
+                <div class="card-front">
+                    <p>Tap to reveal</p>
+                </div>
+                <div class="card-back" id="card-back"></div>
+            </div>
+        </div>
+
+
+
+        <!-- Buttons for Guessing -->
+        <div class="buttons">
+            <button onclick="makeGuess('blue')" class="blue-btn">🔵 Blue</button>
+            <button onclick="makeGuess('red')" class="red-btn">🔴 Red</button>
+        </div>
+                <!-- Guess Result -->
+                <!-- Guess Result (Fixed Height for Stability) -->
+<p id="result" class="message result-message">🔍 Waiting for your guess...</p>
+
+
+        <!-- Score Tracker -->
+        <p class="score-text">✔️ Correct: <span id="correct-count">0</span> | ❌ Wrong: <span id="wrong-count">0</span></p>
+        <p id="final-score" class="message"></p>
+
+        <!-- Restart Button -->
+        <!-- Restart Button -->
+<div class="restart-container">
+    <button id="restart-btn" onclick="restartGame()">🔄 Restart Game</button>
+    <p class="footer-text">©Bektas - 2025</p>
+</div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
