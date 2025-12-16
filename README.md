@@ -62,10 +62,19 @@ Now, open **`http://127.0.0.1:5000/`** in your browser and enjoy the game! 🎉
 ## **🌟 License**
 This project is open-source and available under the **MIT License**. Feel free to modify and improve it!  
 
-📌 **Author:** Bektas SARI 
-📅 **Year:** 2025  
+## 👤 Developer
+
+**Bektaş Sarı**<br>
+PhD in Advertising, AI + Creativity researcher<br>
+Flutter Developer & Software Educator<br>
+
+- **Email:** [bektas.sari@gmail.com](mailto:bektas.sari@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/bektas-sari](https://www.linkedin.com/in/bektas-sari)  
+- **Researchgate:** [researchgate.net/profile/Bektas-Sari-3](https://www.researchgate.net/profile/Bektas-Sari-3)  
+- **Academia:** [independent.academia.edu/bektassari](https://independent.academia.edu/bektassari)
 
 ---
 
 🔥 **Have fun guessing!** 😊  
+
 
